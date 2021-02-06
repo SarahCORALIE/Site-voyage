@@ -1,0 +1,97 @@
+
+*
+{
+    font-family: 'Raleway', sans-serif;
+}
+.container
+{
+
+    /* border: 1px solid; */
+    padding: 0;   
+}
+
+/**************** entête ****************/
+header
+{
+    background-image: url(img/header.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    /* border: 1px solid; */
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+
+}
+nav a
+{
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+    font-size: 1.5vw;
+    text-align: center;
+    /* border: 1px solid; */
+}   
+nav a:hover
+{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: rgb(128, 127, 127);
+    /* border: 1px solid; */
+}
+
+/***************** A propos *******************/
+
+
+/* h1
+{
+    font-size: 3vw;
+} */
+.art-center
+{
+    width: 70%;
+}
+.a-propos .bleu
+{
+    color: rgb(52, 133, 170);
+}
+.a-propos a
+{
+    text-decoration: none;
+    color: rgb(52, 133, 170);
+    text-emphasis: bold;
+}
+p
+{
+    padding: ;
+    text-align: justify;
+    font-size: 1.8vw;
+}
+.bleu
+{
+    color: rgb(52, 133, 170);
+}
+.cercle
+{
+    height: auto;
+    width: 20% !important;
+    padding: 0;
+    /* border: solid 1px white; */
+    border-radius: 50%   
+}
+.bandeau2
+{
+    padding: 0;
+}
+.carre
+{
+    height: auto;
+    width: 20% !important;
+    padding: 0;
+}
+
+/* footer */
+footer
+{
+    background-color: rgb(52, 133, 170);
+    color: white;
+}
